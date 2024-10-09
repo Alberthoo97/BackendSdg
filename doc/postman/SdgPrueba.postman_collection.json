@@ -1,0 +1,39 @@
+{
+	"info": {
+		"_postman_id": "80575a8c-2e53-44e9-8c56-4feabbe9b09e",
+		"name": "SdgPrueba",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "6191230"
+	},
+	"item": [
+		{
+			"name": "updateCountry",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"url": {
+					"raw": "localhost:8080/api/v1/data/country",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"v1",
+						"data",
+						"country"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "getAllCountries",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
